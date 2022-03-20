@@ -54,7 +54,7 @@ if (gps === "/contato.html") {
 	let telefone = document.createElement("input");
 	let inputTel = document.querySelector("textarea");
 	let addedTel = inputTel.insertAdjacentElement("beforebegin", telefone);
-	addedTel.setAttribute("type", "email");
+	addedTel.setAttribute("type", "phone");
 	addedTel.setAttribute("required", "");
 	addedTel.setAttribute("placeholder", "Fone");
 
